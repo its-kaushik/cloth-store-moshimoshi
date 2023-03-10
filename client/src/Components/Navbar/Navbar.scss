@@ -1,0 +1,50 @@
+.Navbar {
+
+    .top{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 90px;
+    }
+
+    .bottom {
+
+        border-top: 2px solid #eaf1f2;
+
+        display: flex;
+        justify-content: center;
+
+        height: 58px;
+
+        .mid {
+
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+            .menu-icon {
+
+                height: 100%;
+                width: 50px ;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                border-left: 1px solid #eaf1f2;
+                border-right: 1px solid #eaf1f2;
+            }
+
+            .menu-item {
+
+                font-style: 300;
+                font-size: 14px;
+                color: #5f5f5f;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,130 @@
+.home {
+
+    overflow-x: hidden;
+
+    background-color: #e6e6e6;
+
+    .collections {
+
+        margin-top: 7px;
+
+        display: flex;
+        width: 100%;
+
+        .collection-banner {
+
+            width: 33.33%;
+
+            img {
+
+                width: 100%;
+            }
+
+        }
+    }
+
+    .sections {
+
+        width: 80%;
+        margin: 0 auto;
+
+        .section-heading {
+
+            display: flex;
+            align-items: center;
+
+            margin-top: 60px;
+            margin-bottom: 30px;
+
+            .color-block {
+
+                display: flex;
+                gap: 2px;
+
+                .green-block {
+
+                    width: 9px;
+                    height: 19px;
+
+                    background-color: #1eb089;
+
+                }
+
+                .blue-block {
+
+                    width: 9px;
+                    height: 19px;
+
+                    background-color: #7db9e8;
+
+                }
+
+                .purple-block {
+
+                    width: 9px;
+                    height: 19px;
+
+                    background-color: #7c49ab;
+
+                }
+
+            }
+
+            .heading-text {
+
+                margin-left: 10px;
+
+                font-weight: 400;
+                font-size: 24px;
+                color: #818181;
+                text-transform: uppercase;
+
+            }
+
+        }
+
+        .best-seller-section {
+
+            .men-section {
+
+                display: flex;
+                gap: 15px;
+
+                .men-slider {
+
+                    width: 75%;
+                }
+
+                .poster-img {
+
+                    width: 25%;
+
+                }
+            }
+
+            .women-section {
+
+                margin-top: 15px;
+
+                display: flex;
+                gap: 15px;
+
+                .poster-img {
+
+                    width: 25%;
+
+                }
+
+                .women-slider {
+
+                    width: 75%;
+
+                }
+
+            }
+        }
+
+    }
+
+
+}

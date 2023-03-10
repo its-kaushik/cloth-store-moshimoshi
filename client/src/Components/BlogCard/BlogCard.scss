@@ -1,0 +1,41 @@
+.blog-card{
+
+    width: 33.33%;
+
+    .blog-card-top{
+
+        img{
+
+            width: 100%;
+            height: auto;
+
+        }
+
+    }
+
+    .blog-card-body{
+
+        padding-top: 10px;
+        padding-bottom: 25px;
+
+        .blog-date{
+
+            font-weight: 300;
+            font-size: 12px;
+            color: #818181;
+
+        }
+
+        .blog-title{
+
+            margin-top: 10px;
+
+            font-weight: bold;
+            font-size: 14px;
+            color: #818181;
+
+        }
+
+    }
+
+}
